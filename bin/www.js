@@ -48,5 +48,5 @@ const server  =  http.createServer(async(req,res)=>{
 	res.write("<h1>OOPS TERJADI SESUATU</h1>")
 	return res.end();
 })
-
-server.listen(9090,"0.0.0.0")
+// if nedd push to server change port to 80 but if for development recomended use 8080
+server.listen(80,"0.0.0.0")
